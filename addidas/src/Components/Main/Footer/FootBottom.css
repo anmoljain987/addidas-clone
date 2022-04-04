@@ -1,0 +1,14 @@
+.foot-bottom {
+  display: flex;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
