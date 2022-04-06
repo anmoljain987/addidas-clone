@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import FootBottom from "./FootBottom";
+
 import "./Footer.css";
 function Footer() {
   return (
