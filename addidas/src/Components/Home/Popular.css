@@ -1,0 +1,24 @@
+.popular-div {
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+.pop-center {
+  text-align: center;
+}
+.pop-center h5 {
+  font-size: 40px;
+}
+.popular-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.popular-buttons button {
+  background-color: transparent;
+  border: 1px solid rgb(28, 27, 27);
+}

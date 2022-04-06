@@ -1,0 +1,22 @@
+.button-brutal {
+  border: none;
+  position: absolute;
+  border-width: 0 10px;
+  background: black;
+  margin: -37px 0px -25px -37px;
+  padding: 15px;
+  padding-left: 10px;
+}
+
+.div-brutal {
+  position: relative;
+  border: 2px solid black;
+  margin: 50px;
+  left: 5px;
+  display: block;
+}
+.button-brutal a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
