@@ -1,0 +1,23 @@
+import React from 'react'
+import { Col, Container } from 'react-bootstrap'
+import "./FootSmall.css"
+function FootSmall() {
+  return (
+    <Container className='small-bot'>
+        <Col  >
+        <li>Delivery</li>
+        <li>Order Tracker</li>
+        <li>Store Finder</li>
+        <li>adiclub terms and conditions</li>
+
+        </Col>
+        <Col >
+        <li>Returns &amp; Refunds</li>
+        <li>Help</li>
+        <li>adiclub</li>
+        </Col>
+    </Container>
+  )
+}
+
+export default FootSmall

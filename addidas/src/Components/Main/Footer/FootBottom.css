@@ -1,14 +1,18 @@
 .foot-bottom {
-  display: flex;
-
-  grid-template-columns: repeat(2, 1fr);
-
-  gap: 30px;
-  margin-left: 50px;
-  margin-right: 50px;
-  justify-content: space-between;
+ background-color: rgb(54,55,56);
+ color: white;
+margin-top: 30px;
+padding-top: 20px;
 }
-a {
-  text-decoration: none;
-  color: black;
+.foot-bottom .pointer {
+ padding-left:90px ;
+  color: #c8cbcc;
+  font-size: 12px;
+}
+
+
+
+.copyright{
+  padding-top: 40px;
+  padding-bottom: 20px;
 }

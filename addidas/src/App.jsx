@@ -1,9 +1,12 @@
 import "./App.css";
-import FootBottom from "./Components/Main/Footer/FootBottom";
+import Footer from "./Components/Main/Footer/Footer";
+import FootSmall from "./Components/Main/Footer/FootSmall";
 function App() {
   return (
     <div className="App">
-      <FootBottom />
+      {/* <FootBottom /> */}
+      {/* <Footer></Footer> */}
+      <FootSmall/>
     </div>
   );
 }
