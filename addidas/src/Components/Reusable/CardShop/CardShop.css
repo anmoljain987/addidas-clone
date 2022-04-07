@@ -1,11 +1,12 @@
-.card-group {
+.card-group-shop {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  background-color: aqua;
+  gap: 3%;
 }
 .card-shop img {
   width: 100%;
+  position: absolute;
+  z-index: -123;
 }
 
 .card-title-who h5 em {
@@ -14,6 +15,19 @@
 }
 
 .card-shop-container {
-  margin: 0 13px;
+  margin: 0 3%;
   margin-top: 30px;
+}
+
+.card-shop {
+  position: relative;
+  cursor: pointer;
+}
+.center-tag {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  padding: 35% 0;
 }

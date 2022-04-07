@@ -8,7 +8,7 @@
   text-align: center;
 }
 .pop-center h5 {
-  font-size: 40px;
+  font-size: 35px;
   color: black;
 }
 .popular-buttons {
@@ -21,5 +21,7 @@
 
 .popular-buttons button {
   background-color: transparent;
-  border: 1px solid rgb(28, 27, 27);
+  border: 1px solid rgb(201, 201, 201);
+
+  padding: 7px 15px;
 }
