@@ -19,11 +19,12 @@
   align-items: stretch;
 }
 
-.nav-adidas input {
+.icon-link-nav input {
   /* outline: 0.2cm solid black; */
   background-color: rgb(233, 236, 239);
   color: rgb(124, 126, 127);
   border: none;
+  outline: none;
 }
 
 .navigation-bar-bottom {
@@ -54,9 +55,19 @@
 .links-nav-upper-wrapper {
   list-style: none;
   display: flex;
-  gap: 30px;
-  color: gray;
-  font-weight: 100;
+  gap: 20px;
+  color: rgb(60, 59, 59);
+  font-weight: 400;
+  margin-top: 7px;
+  font-size: small;
+}
+.links-nav-upper-wrapper a {
+  text-decoration: none;
+  color: rgb(60, 59, 59);
+}
+.links-nav-upper-wrapper a:hover {
+  text-decoration: none;
+  color: rgb(60, 59, 59);
 }
 
 .left-nav {
@@ -65,17 +76,36 @@
   align-items: flex-end;
 }
 .image-adidas {
-  width: 18%;
+  width: 20%;
 }
 
 .icon-link-nav {
   display: flex;
   list-style: none;
   color: black;
-  gap: 15px;
+  gap: 20px;
 }
 
 .icon-link a {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
+}
+.icon-link a:hover {
+  color: black;
+}
+
+.links-nav-bottom-wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.search-nav {
+  outline: 1px solid rgb(233, 236, 239);
+  transition: ease-in-out 0.5s;
+  display: flex;
+  align-items: stretch;
+}
+.search-nav:hover {
+  outline: 1px solid black;
 }

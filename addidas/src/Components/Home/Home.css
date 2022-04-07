@@ -1,4 +1,32 @@
-.video-wrapper{
-    position: relative;
+.video-wrapper {
+  position: relative;
+  /* background-color: aqua; */
+}
+.div-brutal-wrapper-vid {
+  position: absolute;
+  top: 400px;
+  left: 150px;
+}
+.div-brutal-vid {
+  position: relative;
+  border: 1px solid black;
+  display: block;
+  width: 147px;
+  height: 45px;
+}
+.button-brutal-vid {
+  border: none;
+  position: absolute;
+  padding: 10px 18px;
+  border: none;
+  background: black;
+
+  top: -5px;
+  left: -5px;
 }
 
+.button-brutal-vid a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}

@@ -19,84 +19,100 @@ function NavbarCont() {
         <div className="left-nav">
           <ul className="links-nav-upper-wrapper">
             {" "}
-            <li className="links-nav-upper">help</li>
-            <li className="links-nav-upper">returns</li>
-            <li className="links-nav-upper">order tracker</li>
-            <li className="links-nav-upper">sign up</li>{" "}
+            <li className="links-nav-upper">
+              {" "}
+              <a href="#">help</a>{" "}
+            </li>
+            <li className="links-nav-upper">
+              <a href="#">returns</a>
+            </li>
+            <li className="links-nav-upper">
+              <a href="#">order tracker</a>
+            </li>
+            <li className="links-nav-upper">
+              <a href="#">sign up</a>
+            </li>{" "}
           </ul>
-          <ul className="nav-adidas">
-            <li className="links-nav">
-              <a href="#">
-                <h5>MEN</h5>
-              </a>
-              <div className="animation-nav"></div>
-            </li>
-            <li className="links-nav">
-              <a href="#">
-                {" "}
-                <h5>WOMEN</h5>
-              </a>
-              <div className="animation-nav"></div>
-            </li>
-            <li className="links-nav">
-              <a href="#">
-                <h5>KIDS</h5>
-              </a>
-              <div className="animation-nav"></div>
-            </li>
-            <li className="links-nav">
-              <a href="#">
-                <div>SPORTS</div>
-              </a>
+          <div className="links-nav-bottom-wrapper">
+            <ul className="nav-adidas">
+              <li className="links-nav">
+                <a href="#">
+                  <h5>MEN</h5>
+                </a>
+                <div className="animation-nav"></div>
+              </li>
+              <li className="links-nav">
+                <a href="#">
+                  {" "}
+                  <h5>WOMEN</h5>
+                </a>
+                <div className="animation-nav"></div>
+              </li>
+              <li className="links-nav">
+                <a href="#">
+                  <h5>KIDS</h5>
+                </a>
+                <div className="animation-nav"></div>
+              </li>
+              <li className="links-nav">
+                <a href="#">
+                  <div>SPORTS</div>
+                </a>
 
-              <div className="animation-nav"></div>
-            </li>
-            <li className="links-nav">
-              <a href="#">
-                <div>BRANDS</div>
-              </a>
-              <div className="animation-nav"></div>
-            </li>
-            <li className="links-nav">
-              <a href="#">
-                <div>COLLECTIONS</div>
-              </a>
-              <div className="animation-nav"></div>
-            </li>
-            <li className="links-nav">
-              <a href="#">
-                <div>OUTLET</div>
-              </a>
-              <div className="animation-nav"></div>
-            </li>
-            <li className="search-nav">
-              <input type="search" placeholder="Search" />
-              <AiOutlineSearch
-                style={{
-                  height: "32px",
-                  width: "20px",
-                  backgroundColor: "rgb(233, 236, 239)",
-                }}
-              />
-            </li>
-          </ul>
-          <ul className="icon-link-nav">
-            <li className="icon-link">
-              <a href="#">
-                <AiOutlineUser />
-              </a>
-            </li>
-            <li className="icon-link">
-              <a href="#">
-                <FiHeart />
-              </a>
-            </li>
-            <li className="icon-link">
-              <a href="#">
-                <AiOutlineShopping />
-              </a>
-            </li>
-          </ul>
+                <div className="animation-nav"></div>
+              </li>
+              <li className="links-nav">
+                <a href="#">
+                  <div>BRANDS</div>
+                </a>
+                <div className="animation-nav"></div>
+              </li>
+              <li className="links-nav">
+                <a href="#">
+                  <div>COLLECTIONS</div>
+                </a>
+                <div className="animation-nav"></div>
+              </li>
+              <li className="links-nav">
+                <a href="#">
+                  <div>OUTLET</div>
+                </a>
+                <div className="animation-nav"></div>
+              </li>
+            </ul>
+            <ul className="icon-link-nav">
+              <li className="search-nav">
+                <input
+                  style={{ width: "150px" }}
+                  type="search"
+                  placeholder="Search"
+                />
+                <AiOutlineSearch
+                  style={{
+                    backgroundColor: "rgb(233, 236, 239)",
+                    paddingRight: "5px",
+                    fontSize: "27px",
+                    height: "31px",
+                  }}
+                />
+              </li>
+              <li className="icon-link">
+                <a href="#">
+                  <AiOutlineUser />
+                </a>
+              </li>
+              <li className="icon-link">
+                <a href="#">
+                  <FiHeart />
+                </a>
+              </li>
+              <li className="icon-link">
+                <a href="#">
+                  <AiOutlineShopping />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </Fragment>
