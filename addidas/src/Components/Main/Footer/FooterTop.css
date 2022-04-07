@@ -1,0 +1,11 @@
+.footer-top-yellow {
+  height: 150px;
+  background-color: yellow;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 50px;
+  font-size: 30px;
+  margin: 40px 0;
+}

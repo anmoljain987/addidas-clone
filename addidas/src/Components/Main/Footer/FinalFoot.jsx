@@ -2,29 +2,8 @@
 import FootBottom from "./FootBottom";
 import Footer from "./Footer";
 import FootSmall from "./FootSmall";
-// function FinalFoot() {
-//   const { innerWidth } = window;
-//   const [width, setWidth] = useState(innerWidth);
-//   useEffect(() => {
-//     function sizeChange() {
-//       setWidth(innerWidth);
-//       console.log(width);
-//     }
-//     window.addEventListener("resize", sizeChange);
+import FooterTop from "./FooterTop";
 
-//     return () => window.removeEventListener("resize", sizeChange);
-//   }, [width]);
-
-//   return (
-//     <Fragment>
-//       {width > 960 ? <Footer /> : <FootSmall />}
-
-//       <FootBottom />
-//     </Fragment>
-//   );
-// }
-
-// export default FinalFoot;
 import React, { useState, useEffect, Fragment } from "react";
 
 function debounce(fn, ms) {
@@ -53,6 +32,7 @@ function FinalFoot() {
   });
   return (
     <Fragment>
+      <FooterTop />
       {width > 960 ? <Footer /> : <FootSmall />}
       <FootBottom />
     </Fragment>
