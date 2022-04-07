@@ -5,15 +5,17 @@ import NavbarCont from "./Components/Main/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Top from "./Components/Reusable/Top/Top";
 import Popular from "./Components/Home/Popular";
+import CardShop from "./Components/Reusable/CardShop/CardShop";
 function App() {
   return (
     <div className="App">
-      <Top />
+      {/* <Top />
       <NavbarCont></NavbarCont>
-      <Home />
+      <Home /> */}
       {/* <FinalFoot /> */}
       {/* <Button /> */}
       <Popular></Popular>
+      <CardShop></CardShop>
     </div>
   );
 }
