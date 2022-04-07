@@ -1,0 +1,138 @@
+.bground{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.logo{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    width: 20%;
+    height: 20%;
+}
+.text{
+    position: absolute;
+    top: 210px;
+    left: 80px;
+    color: white;
+    font-size: xx-large;
+}
+.text1{
+    position: absolute;
+    top: 310px;
+    left: 80px;
+    width: 30%;
+    color: white;
+    font-size: large;
+}
+.button{
+    position: absolute;
+    top: 410px;
+    left: 80px;
+    width: 12%;
+    height: 8%;
+    color: white;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+.flex-outside{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.flex-inside{
+    display: flex;
+    padding-left: 50px;
+}
+.flex-inside .border{
+    min-width: 110px;
+    height: 110px;
+    padding-right: 20px;
+}
+.border {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.discount-tag{
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    left: 10px;
+    top: 230px;
+    text-transform: capitalize;
+}
+.org-price{
+    text-decoration: line-through;
+}
+.dis-price{
+    color: red;
+}
+.dis-percentage{
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    left: 10px;
+    top: 190px;
+    font-weight: bold;
+    /* text-transform: capitalize; */
+}
+span{
+    color: rgb(114, 108, 108);
+}
+.flex-outside1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 400px;
+}
+.flex-inside1{
+    display: flex;
+    padding-left: 30px;
+    /* padding-right: 50px; */
+}
+.border1 > img{
+    width: 450px;
+    height: 300px;
+    padding-right: 40px;
+}
+.border1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.age{
+    position: absolute;
+    padding: 5px;
+    color: black;
+    left: 150px;
+    top: 180px;
+    text-transform: capitalize;
+}
+.shop-button{
+    left: 100px;
+    top: 240px;
+    position: absolute;
+    width: 50%;
+    height: 18%;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 5px;
+}
+.text2{
+    padding-top: 18px;
+    padding-left: 50px;
+}
+
