@@ -1,19 +1,21 @@
+.div-brutal {
+  position: relative;
+  border: 1px solid black;
+  display: block;
+  width: 50px;
+  height: 27px;
+  margin: 50px;
+}
 .button-brutal {
   border: none;
   position: absolute;
-  border-width: 0 10px;
+  /* border-width: 0 10px; */
+  border: none;
   background: black;
-  margin: -37px 0px -25px -37px;
-  padding: 15px;
-  padding-left: 10px;
-}
-
-.div-brutal {
-  position: relative;
-  border: 2px solid black;
-  margin: 50px;
-  left: 5px;
-  display: block;
+  /* margin: -37px 0px -25px -37px; */
+  /* padding: 15px; */
+  top: -5px;
+  left: -5px;
 }
 .button-brutal a {
   text-decoration: none;

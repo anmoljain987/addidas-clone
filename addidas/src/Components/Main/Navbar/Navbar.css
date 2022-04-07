@@ -1,3 +1,47 @@
+.nav-adidas h5 {
+  margin: 0;
+  padding: 0;
+}
 .hidden {
   display: none;
+}
+.nav-adidas {
+  display: flex;
+  gap: 20px;
+}
+.nav-adidas li {
+  list-style: none;
+}
+.search-nav {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.nav-adidas input {
+  /* outline: 0.2cm solid black; */
+  background-color: rgb(233, 236, 239);
+  color: rgb(124, 126, 127);
+  border: none;
+}
+
+.navigation-bar-bottom {
+  margin-top: 4px;
+}
+.nav-adidas a {
+  text-decoration: none;
+  color: black;
+}
+
+/* animation */
+
+.animation-nav {
+  width: 0;
+  background-color: black;
+  height: 2px;
+  transition: ease-in-out 0.3s;
+}
+
+.links-nav:hover > .animation-nav {
+  width: 100%;
 }
