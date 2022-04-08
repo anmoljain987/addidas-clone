@@ -1,11 +1,11 @@
-.video-wrapper {
+.home-wrapper {
   position: relative;
   /* background-color: aqua; */
 }
-.div-brutal-wrapper-vid {
+.absolute-home-wrapper {
   position: absolute;
-  top: 400px;
-  left: 200px;
+  top: 10%;
+  left: 5%;
 }
 .div-brutal-vid {
   position: relative;
@@ -36,9 +36,8 @@
 }
 
 .text-wrapper-home {
-  position: absolute;
-  top: 195px;
-  left: 200px;
+  /* top: 195px;
+  left: 200px; */
   z-index: 9869;
   color: black;
   text-transform: uppercase;
@@ -51,6 +50,7 @@
 
 .text-wrapper-home span {
   padding: 0;
+  margin: 0;
   font-size: 45px;
   font-weight: 700;
 }

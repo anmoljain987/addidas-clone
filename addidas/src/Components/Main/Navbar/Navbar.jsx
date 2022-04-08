@@ -6,17 +6,23 @@ import {
 } from "react-icons/ai";
 import { FiHeart } from "react-icons/fi";
 import "./Navbar.css";
-import Top from "./Top";
+
 import HiddenMen from "./HiddenMen";
 import HiddenWomen from "./HiddenWomen";
 import { Link } from "react-router-dom";
 function NavbarCont() {
   return (
     <Fragment>
-      <Top />
       <nav className="navigation-bar-bottom">
         <div>
-          <img src="./Adidas_logo.png" alt="adidas" className="image-adidas" />
+          <Link to="/">
+            {" "}
+            <img
+              src="./Adidas_logo.png"
+              alt="adidas"
+              className="image-adidas"
+            />
+          </Link>
         </div>
         <div className="left-nav">
           <ul className="links-nav-upper-wrapper">

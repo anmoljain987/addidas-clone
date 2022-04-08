@@ -18,6 +18,8 @@ function Home() {
             height="100%"
             url="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/global%20brand%20publishing/Membership/Members%20Week/Launch%20Phase/brand-ss22-membersweek-launch-glp-m-mh-hero-d.mp4"
           />
+        </div>
+        <div className="absolute-home-wrapper">
           <div className="text-wrapper-home">
             <div>
               <span>WEEKEND</span>
@@ -40,7 +42,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Alkira />
+      {/* <Alkira /> */}
       <Popular />
       <CardShop />
     </Fragment>

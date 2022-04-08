@@ -1,20 +1,19 @@
 import "./App.css";
 import FinalFoot from "./Components/Main/Footer/FinalFoot";
 // import Button from "./Components/Reusable/Buttons/Button";
-import NavbarCont from "./Components/Main/Navbar/Navbar";
+import FinalNav from "./Components/Main/Navbar/FinalNav";
 import Home from "./Components/Home/Home";
 
-import Popular from "./Components/Home/Popular";
-import CardShop from "./Components/Home/CardShop";
-
+import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Fragment>
-      <NavbarCont />
+      <FinalNav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/kids" element={<Kids />} />
+        {/* <Route path="kids" element={<Kids />} /> */}
+        <Route path="*" element={<Home />} />
       </Routes>
       <FinalFoot />
     </Fragment>
