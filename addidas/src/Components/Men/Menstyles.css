@@ -1,9 +1,9 @@
-.bground{
+ReactPlayer{
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: -1;
+    width: 100%;
 }
 .logo{
     position: absolute;
@@ -17,7 +17,7 @@
     top: 210px;
     left: 80px;
     color: white;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 .text1{
     position: absolute;
@@ -25,11 +25,11 @@
     left: 80px;
     width: 30%;
     color: white;
-    font-size: large;
+    font-size: x-large;
 }
 .button{
     position: absolute;
-    top: 410px;
+    top: 460px;
     left: 80px;
     width: 12%;
     height: 8%;
