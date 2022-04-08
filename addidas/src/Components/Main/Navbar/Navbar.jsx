@@ -7,7 +7,9 @@ import {
 import { FiHeart } from "react-icons/fi";
 import "./Navbar.css";
 import Top from "./Top";
-
+import HiddenMen from "./HiddenMen";
+import HiddenWomen from "./HiddenWomen";
+import { Link } from "react-router-dom";
 function NavbarCont() {
   return (
     <Fragment>
@@ -18,10 +20,8 @@ function NavbarCont() {
         </div>
         <div className="left-nav">
           <ul className="links-nav-upper-wrapper">
-            {" "}
             <li className="links-nav-upper">
-              {" "}
-              <a href="#">help</a>{" "}
+              <a href="#">help</a>
             </li>
             <li className="links-nav-upper">
               <a href="#">returns</a>
@@ -35,39 +35,46 @@ function NavbarCont() {
           </ul>
           <div className="links-nav-bottom-wrapper">
             <ul className="nav-adidas">
-              <li className="links-nav">
+              <li className="links-nav men">
                 <a href="#">
                   <h5>MEN</h5>
                 </a>
+
                 <div className="animation-nav"></div>
+                <div className="hidden-nav-drop-men">
+                  <HiddenMen />
+                </div>
               </li>
-              <li className="links-nav">
+              <li className="links-nav women">
                 <a href="#">
                   {" "}
                   <h5>WOMEN</h5>
                 </a>
-                <div className="animation-nav"></div>
+                <div className="animation-nav"></div>{" "}
+                <div className="hidden-nav-drop-women">
+                  <HiddenWomen />
+                </div>
               </li>
-              <li className="links-nav">
-                <a href="#">
+              <li className="links-nav kids">
+                <Link to="/kids">
                   <h5>KIDS</h5>
-                </a>
+                </Link>
                 <div className="animation-nav"></div>
               </li>
-              <li className="links-nav">
+              <li className="links-nav sports">
                 <a href="#">
                   <div>SPORTS</div>
                 </a>
 
                 <div className="animation-nav"></div>
               </li>
-              <li className="links-nav">
+              <li className="links-nav brands">
                 <a href="#">
                   <div>BRANDS</div>
                 </a>
                 <div className="animation-nav"></div>
               </li>
-              <li className="links-nav">
+              <li className="links-nav collections">
                 <a href="#">
                   <div>COLLECTIONS</div>
                 </a>
