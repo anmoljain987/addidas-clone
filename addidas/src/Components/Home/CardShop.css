@@ -1,0 +1,40 @@
+.card-group-shop {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
+}
+.card-shop img {
+  width: 100%;
+  position: absolute;
+  z-index: -123;
+}
+
+.card-title-who h5 em {
+  font-size: 30px;
+  color: black;
+}
+
+.card-shop-container {
+  margin: 3% 3%;
+}
+
+.card-shop {
+  position: relative;
+  cursor: pointer;
+}
+.center-tag {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  padding: 35% 0;
+}
+
+@media only screen and (max-width: 960px) {
+  .card-group-shop {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3%;
+  }
+}

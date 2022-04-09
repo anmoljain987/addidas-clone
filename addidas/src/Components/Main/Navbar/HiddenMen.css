@@ -1,0 +1,15 @@
+.hidden-red {
+  color: red;
+}
+.hidden-left-flex {
+  display: flex;
+}
+.hidden-nav-container {
+  display: flex;
+  height: 80vh;
+  padding-left: 5px;
+  padding-right: 4%;
+  justify-content: space-between;
+  gap: 100px;
+  padding-top: 10px;
+}
