@@ -29,6 +29,7 @@
   text-decoration: none;
   color: white;
   font-weight: 500;
+  transition: ease-in-out 0.8s;
 }
 
 .button-brutal-vid a:hover {
@@ -39,7 +40,7 @@
   /* top: 195px;
   left: 200px; */
   z-index: 9869;
-  color: black;
+  color: black !important;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -53,4 +54,20 @@
   margin: 0;
   font-size: 45px;
   font-weight: 700;
+  color: black !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .text-wrapper-home span {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: black !important;
+  }
+  .absolute-home-wrapper {
+    position: relative;
+    top: 10%;
+    left: 5%;
+  }
 }
