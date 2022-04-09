@@ -43,7 +43,9 @@ function NavbarCont() {
             <ul className="nav-adidas">
               <li className="links-nav men">
                 <a href="#">
-                  <h5>MEN</h5>
+                  <Link to={"/men"}>
+                    <h5>MEN</h5>
+                  </Link>
                 </a>
 
                 <div className="animation-nav"></div>
