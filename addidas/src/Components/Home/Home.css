@@ -65,9 +65,14 @@
     font-weight: 700;
     color: black !important;
   }
-  .absolute-home-wrapper {
-    position: relative;
-    top: 10%;
-    left: 5%;
+}
+
+@media only screen and (max-width: 640px) {
+  .text-wrapper-home span {
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+    font-weight: 700;
+    color: black !important;
   }
 }

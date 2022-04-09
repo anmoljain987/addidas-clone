@@ -7,7 +7,7 @@
 .hidden-nav-container {
   display: flex;
   height: 80vh;
-  padding-left: 5px;
+  /* padding-left: 5px; */
   padding-right: 4%;
   justify-content: space-evenly;
   gap: 100px;
