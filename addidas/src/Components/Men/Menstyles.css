@@ -1,9 +1,8 @@
-ReactPlayer{
+.bground{
     position: relative;
     top: 0;
     left: 0;
     z-index: -1;
-    width: 100%;
 }
 .logo{
     position: absolute;
@@ -42,21 +41,22 @@ ReactPlayer{
     display: flex;
     /* flex-wrap: wrap; */
     padding-top: 50px;
+    padding-bottom: 300px;
 }
 .flex-inside{
     display: flex;
     padding-left: 50px;
 }
 .flex-inside .border{
-    min-width: 110px;
-    height: 110px;
-    padding-right: 50px;
+    /* min-width: 150px; */
+    height: 100px;
+    padding-right: 20px;
 }
 .border {
     position: relative;
     top: 0;
     left: 0;
-    width: 50%;
+    /* width: 100%; */
     z-index: -1;
 }
 .discount-tag{
@@ -89,50 +89,29 @@ ReactPlayer{
 span{
     color: rgb(114, 108, 108);
 }
-.flex-outside1{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 400px;
+.text2{
+    padding-left: 50px;
 }
-.flex-inside1{
-    display: flex;
-    padding-left: 30px;
-    /* padding-right: 50px; */
-}
-.border1 > img{
-    width: 450px;
-    height: 300px;
-    padding-right: 40px;
-}
-.border1 {
+/* ReactPlayer{
+    width: 10%;
+    height: 50%;
+} */
+.border1{
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
+    /* width: 100%; */
     z-index: -1;
+    /* margin-left: 100px; */
+    padding-right: 20px;
 }
-.age{
-    position: absolute;
-    padding: 5px;
-    color: black;
-    left: 150px;
-    top: 180px;
-    text-transform: capitalize;
+.check{
+    padding-left: 100px;
+    width: 500px;
+    height: 350px;
+    padding-right: 100px;
 }
-.shop-button{
-    left: 100px;
-    top: 240px;
-    position: absolute;
-    width: 50%;
-    height: 18%;
-    font-size: large;
-    color: white;
-    font-weight: bold;
-    background-color: black;
-    padding: 5px;
+.spacing{
+    padding-left: 200px;
+    /* padding-right: 200px; */
 }
-.text2{
-    padding-top: 18px;
-    padding-left: 50px;
-}
-

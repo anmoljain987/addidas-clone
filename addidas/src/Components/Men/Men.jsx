@@ -111,91 +111,51 @@ export default function Men() {
         </div>
       </div>
       {/* </Slider> */}
-      <div className='flex-outside1'>
-        <div className='flex-inside1'>
-          <div className='border1'>
-            <img src='https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/training-fw19-ya-tc-1-dt_tcm209-380707.jpg' alt='shoes'></img>
-            <h2 className='age'>1-4 YEARS</h2>
-            <button className='shop-button'>SHOP INFANTS</button>
-          </div>
-          <div className='border1'>
-            <img src='https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/training-fw19-ya-tc-2-mt_tcm209-380710.jpg' alt='shoes'></img>
-            <h2 className='age'>4-8 YEARS</h2>
-            <button className='shop-button'>SHOP CHILDREN</button>
-          </div>
-          <div className='border1'>
-            <img src='https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/training-fw19-ya-tc-3-dt_tcm209-380711.jpg' alt='shoes'></img>
-            <h2 className='age'>8-16 YEARS</h2>
-            <button className='shop-button'>SHOP YOUTH</button>
-          </div>
-        </div>
-      </div>
       <div className='text2'>
-        <h1>TOP PICKS FOR YOU</h1>
+        <h1>ESSENTIALS</h1>
       </div>
       {/* <Slider {...settings}>  */}
       <div className='flex-outside'> 
         <div className='flex-inside'>
-          <div className='border'>
-            <video src='https://brand.assets.adidas.com/video/upload/q_auto,vc_auto,c_scale,w_0.5/video/upload/global%20brand%20publishing/Membership/Members%20Week/Launch%20Phase/brand-ss22-membersweek-launch-glp-m-teaser-large-hero-t.mp4' autoPlay="true" type='video/mp4'></video>
-            {/* <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/62bd7dd25f334bfd992bad2600aa7d19_9366/G57946_01_standard.jpg' alt="shoes"></img> */}
-            <p>adidas Forta Run x LEGO® VIDIYO™ Shoes <br></br><span>Performance</span></p>
-            <p className='discount-tag'>₹4 9999.00</p>
+          <div className='border1'>
+            <div className='check'>
+            <ReactPlayer
+              playing={true}
+              loop={true}
+              muted={true}
+              url="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto,c_scale,w_0.5/video/upload/global%20brand%20publishing/Membership/Members%20Week/Launch%20Phase/brand-ss22-membersweek-launch-glp-m-teaser-large-hero-t.mp4"
+            ></ReactPlayer> 
+            </div>           {/* <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/62bd7dd25f334bfd992bad2600aa7d19_9366/G57946_01_standard.jpg' alt="shoes"></img> */}
+            <p className='spacing'>adidas Forta Run x LEGO® VIDIYO™ Shoes <br></br><span>Performance</span></p>
           </div >
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/9b0887d84968406a8d94ad8e00f482d5_9366/GZ0204_01_standard.jpg' alt='shoes'></img>
-            <p>adidas Forta Run x LEGO® Baumhaus Shoes <br></br><span>Performance</span></p>
-            <p className='discount-tag'>₹4 999.00</p>
+          <div className='border1'>
+            <ReactPlayer
+              playing={true}
+              loop={true}
+              muted={true}
+              url="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/running-ss22-ultraboost-launch-hp-masthead-large-3d-t_ow4fcp.mp4"
+            />            
+            <p className='spacing'>FORUM <br></br><span>Innovative in the 80s, legandary today.</span></p> 
           </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/d249ab99fecb4a8c9362ad6600baa4e5_9366/GW0344_01_standard.jpg' alt='shoes'></img>
-            <p>Adilette Sandals <br></br><span>Sportswear</span></p> 
-            <p className='discount-tag'>₹2 799.00</p>
+          <div className='border1'>
+            <ReactPlayer
+                playing={true}
+                loop={true}
+                muted={true}
+                url="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto,c_scale,w_0.5/video/upload/global%20brand%20publishing/Originals/Y2K/Launch/originals-ss22-y2k-dual-hp-teaser-carousel-launch.mp4"
+              />             
+            <p className='spacing'>ULTRA 4D SHOES <br></br><span>Precisely coded running shoes made in part with recycled materials.</span></p> 
           </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/701d2f0baf2e4a829786ad0c011b77f3_9366/GU3741_01_standard.jpg' alt='shoes'></img>
-            <p>adidas x LEGO® Baumhaus Convertible Bag <br></br><span>Performance</span></p>
-            <p className='discount-tag'>₹2 999.00</p>
-          </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/db7b958671b04cd2880dad4e00cabaa7_9366/FZ5441_01_standard.jpg' alt='shoes'></img>
-            <p>adidas x LEGO® Sport Shoes <br></br><span>Performance</span></p>
-            <p className='discount-tag'>₹6 599.00</p>
-          </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/f74e2bccabf044838a86ad2e00fb53bb_9366/FZ5440_01_standard.jpg' alt='shoes'></img>
-            <p>adidas ZX 8000 x LEGO® Shoes <br></br><span>Kids Lifestyle</span></p>
-            <p className='discount-tag'>₹6 599.00</p>
-          </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/19d89a1733954702aecbacc901752adc_9366/GZ8215_01_standard.jpg' alt='shoes'></img>
-            <p>adidas x Classic LEGO® Bricks Long <br></br>Sleeve Fitted Tee <br></br><span>Kids Lifestyle</span></p>
-            <p className='discount-tag'><span className='org-price'>₹2499.00</span><span className='dis-price'>₹1000.00</span></p>
-          </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/3260d91059974194af13adbb00ebc5a3_9366/H01503_01_standard.jpg' alt='shoes'></img>
-            <p>adidas x LEGO® Sport Shoes<br></br><span>Kids running</span></p>
-            <p className='discount-tag'><span className='org-price'>₹2499.00</span><span className='dis-price'>₹1000.00</span></p>
-          </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/0be395b38e4a43519bd1ad26008aecea_9366/FZ5438_01_standard.jpg' alt='shoes'></img>
-            <p>adidas ZX 8000 x LEGO® Shoes<br></br><span>Kids Lifestyle</span></p>
-            <p className='discount-tag'><span className='org-price'>₹2499.00</span><span className='dis-price'>₹1000.00</span></p>
-          </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/3e90b681dc2e4d599f9fad9100e49909_9366/H01504_01_standard.jpg' alt='shoes'></img>
-            <p>adidas x Classic LEGO® Tee<br></br><span>Kids Training</span></p>
-            <p className='discount-tag'><span className='org-price'>₹2499.00</span><span className='dis-price'>₹1000.00</span></p>
-          </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/d8b19f5114d24d878e72ad2600f615cd_9366/G57947_01_standard.jpg' alt='shoes'></img>
-            <p>adidas x LEGO® Sport Shoes<br></br><span>Kids Running</span></p>
-            <p className='discount-tag'><span className='org-price'>₹2499.00</span><span className='dis-price'>₹1000.00</span></p>
-          </div>
-          <div className='border'>
-            <img src='https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/c7d6c1269dcf46da88aeac4d0129df6c_9366/FX2877_01_standard.jpg' alt='shoes'></img>
-            <p>adidas x LEGO® Graphic Tee<br></br><span>Kids Lifestyle</span></p>
-            <p className='discount-tag'><span className='org-price'>₹2499.00</span><span className='dis-price'>₹1000.00</span></p>
+          <div className='border1'>
+            <div className='check'>
+            <ReactPlayer
+              playing={true}
+              loop={true}
+              muted={true}
+              url="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/running-ss22-ultraboost-launch-hp-masthead-large-3d-t_ow4fcp.mp4"
+            />   
+            </div>          
+            <p className='spacing'>THAT'S SERIOUSLY JOKES <br></br><span>An expensive remix of the 2000s. That's so Astir and so ADI2000.</span></p>
           </div>
         </div>
       </div>
