@@ -11,3 +11,8 @@
 <img src="Adidas-1.png">
 <h2 align="center">Mobile Screen Home Page</h2>
 <img align="center" src="Adidas-2.png">
+<h2 align="center">Navigation</h2>
+
+
+https://user-images.githubusercontent.com/96873348/163381490-75ca1d7e-c66f-4dd3-b48d-7a1963a07cb3.mp4
+
