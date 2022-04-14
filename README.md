@@ -1,4 +1,4 @@
-<h2 align="center">Addidas Clone using React.</h2>
+<h2 align="center">Adidas Clone using React.</h2>
 <p>- Welcome to our repositary, here we have created a clone of Adidas India.</p>
 <p>- This project was made with the help for <strong>Venkatesh</strong></p>
 <p>- This is a non functional clone for the website using React. We used various React Libraries to achieve our goal such as React , Redux , React-Bootstrap , React-Icons , React-router-dom , React-player to make the website for user friendly and pleasing by looks. This website is responsive. </p>
