@@ -10,17 +10,19 @@ import Home from "./Components/Home/Home";
 
 import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
+import Shipping from "./Components/Purchase/NewAddress/ShippingForm";
 function App() {
   return (
     <Fragment>
-      <FinalNav />
+      {/* <FinalNav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="men" element={<Men />} />
         <Route path="kids" element={<Kids />} />
         <Route path="*" element={<Home />} />
       </Routes>
-      <FinalFoot />
+      <FinalFoot /> */}
+      <Shipping />
     </Fragment>
   );
 }

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import ReactPlayer from "react-player";
-import Alkira from "./Alkira";
+// import Alkira from "./Alkira";
 import { CgArrowLongRight } from "react-icons/cg";
 import Popular from "./Popular";
 import CardShop from "./CardShop";

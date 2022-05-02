@@ -1,0 +1,40 @@
+.form_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-left: 150px;
+  flex-shrink: 3;
+}
+
+.form_flex input {
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+.input_name {
+  height: 3rem;
+  width: 325px;
+}
+.left_right {
+  display: flex;
+  gap: 25px;
+}
+.input_address {
+  height: 3rem;
+  width: 675px;
+}
+.input_address + div {
+  color: lightgrey;
+  font-size: medium;
+  padding-left: 10px;
+}
+.button {
+  padding: 5px 25px;
+  /* background-color: aquamarine; */
+  border: 0;
+  width: 675px;
+}
+
+.div {
+  justify-self: stretch;
+}
