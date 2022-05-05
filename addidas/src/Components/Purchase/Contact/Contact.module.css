@@ -1,5 +1,48 @@
 .contact__section {
+  margin-left: 100px;
+  margin-top: 50px;
 }
 .heading {
   font-family: "adineue PRO Cyr Bold";
+}
+.input_name {
+  padding: 0.8rem 0;
+  width: 325px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.checkbox {
+  margin-right: 7px;
+  border-radius: 0;
+  border: 1px black solid;
+  color: black;
+}
+
+#old:active {
+  background-color: black;
+  color: white;
+  accent-color: black;
+}
+.button {
+  /* position: absolute; */
+}
+.input {
+  left: -5px;
+  top: -5px;
+  position: relative;
+  border: 0;
+  background-color: black;
+  color: white;
+  font-size: xx-large;
+  font-family: "adineue PRO Cyr Bold";
+  padding: 0px 10px;
+}
+.button_container {
+  border: 2px black solid;
+  height: 49px;
+  width: 122px;
 }

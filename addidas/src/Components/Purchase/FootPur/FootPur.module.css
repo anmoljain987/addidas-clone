@@ -7,9 +7,9 @@
   padding: 10px 0;
 }
 .top {
-  font-size: 10px;
+  font-size: 12px;
   text-decoration: none;
-  padding: 5px 0;
+  padding: 8px 0;
   margin: 0;
   color: rgb(255, 255, 255);
 }
@@ -17,6 +17,7 @@
 .top a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
 }
 .top:last-child {
   color: gray;

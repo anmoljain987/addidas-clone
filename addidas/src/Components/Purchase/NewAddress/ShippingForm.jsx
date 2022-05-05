@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from "react";
 import styles from "./ShippingForm.module.css";
+import LoggedIn from "./LoggedIn/LoggedIn";
 function ShippingForm() {
   const intialState = {
     first_name: "",
@@ -36,6 +37,7 @@ function ShippingForm() {
   } = shipping;
   return (
     <Fragment>
+      <LoggedIn />
       <h2 className={styles.heading}>SHIPPING ADDRESS</h2>
       <form className={styles.form_flex} onSubmit={submitHandler}>
         <div className={styles.left_right}>
@@ -168,8 +170,11 @@ function ShippingForm() {
         </div>
         <input type="submit" value={"Button"} className={styles.button} />
       </form>
-      <span>Country:</span>
-      <span>India</span>
+      <div className={styles.span}>
+        {" "}
+        <span>Country:</span>
+        <span>India</span>
+      </div>
     </Fragment>
   );
 }
