@@ -1,0 +1,251 @@
+{
+  "newarrivals": [
+    {
+      "id": 1,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/0bdb1b66ac6241c2aecfadf700171234_9366/Forum_Low_Shoes_White_GY5833_01_standard.jpg",
+      "price": "₹8 999.00",
+      "title": "Forum Low Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 2,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/f3e584ae50e144ddb007ae0b001beb55_9366/Adilette_Pride_Slides_Black_GX6389_01_standard.jpg",
+      "price": "₹4 999.00",
+      "title": "Adilette Pride Slides",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 3,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/6af3a324ad8f4632b36badf900892d33_9366/Superstar_Shoes_White_GV7610_01_standard.jpg",
+      "price": "₹9 999.00",
+      "title": "Superstar Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 4,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/f88bdbb8f061489a9e8fadfe011d45a2_9366/Forum_Low_Shoes_White_GV7613_01_standard.jpg",
+      "price": "₹9 999.00",
+      "title": "Forum Low Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 5,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/c4eef76ad3664fb19a7dae1e00326612_9366/Superstar_Pride_Shoes_White_GX6395_01_standard.jpg",
+      "price": "₹9 999.00",
+      "title": "Superstar Pride Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 6,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/2cc3f591a53f413ca9f3ae1300f43909_9366/Rich_Mnisi_Adilette_Slides_Black_GW0564_01_standard.jpg",
+      "price": "₹4 999.00",
+      "title": "Rich Mnisi Adilette Slides",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 7,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/6c5e29d7411d427ca23aae0b01048f02_9366/Nizza_Hi_Shoes_White_GV7607_01_standard.jpg",
+      "price": "₹8 999.00",
+      "title": "Nizza Hi Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 8,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/63885ed215264facae12adf9008972cb_9366/Stan_Smith_Parley_Shoes_White_GV7614_01_standard.jpg",
+      "price": "₹13 999.00",
+      "title": "Stan Smith Parley Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 9,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/cad2d86610044b39931fae16011598a9_9366/Oznova_Shoes_Grey_GY3066_01_standard.jpg",
+      "price": "₹11 999.00",
+      "title": "Oznova Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 10,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/7fff99471d484360ae69ae49018091c6_9366/Superstar_Shoes_White_GV7946_01_standard.jpg",
+      "price": "Sold out",
+      "title": "Superstar Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 11,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/46f7fd2b4c77455e88d5adf900a19e7e_9366/Nizza_Hi_Parley_Shoes_White_GV7617_01_standard.jpg",
+      "price": "₹11 999.00",
+      "title": "Nizza Hi Parley Shoes",
+      "category": "Men originals",
+      "label": "new"
+    },
+    {
+      "id": 12,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/98de7951e7064518a975ae14003f0403_9366/ZX_22_BOOST_Shoes_Grey_GV8047_01_standard.jpg",
+      "price": "₹11 999.00",
+      "title": "ZX 22 BOOST Shoes",
+      "category": "Men originals",
+      "label": "new"
+    }
+  ],
+  "bestofaddidas": [
+    {
+      "id": 1,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/e5a57fc819ab412ca532ab3a0104e89c_9366/GD3575_03_standard.jpg",
+      "price": "₹1 1999.00",
+      "title": "Mid Cut Crew Socks 3 Pairs",
+      "category": "Originals"
+    },
+    {
+      "id": 2,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/584670fb39cd4f1aa70fac5500914ec4_9366/FY9121_01_standard.jpg",
+      "price": "₹16 999.00",
+      "title": "Ultraboost 4.0 DNA Shoes",
+      "category": "Sportswear"
+    },
+    {
+      "id": 3,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/b47d77eba6f945ea8dabac210127b11e_9366/FX5501_01_standard.jpg",
+      "price": "₹7 999.00",
+      "title": "Stan Smith Shoes",
+      "category": "Originals"
+    },
+    {
+      "id": 4,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/1c2febd0cacc4d6aa958ab8a00ff0a30_9366/GF0210_01_laydown.jpg",
+      "price": "₹5 999.00",
+      "title": "Adicolor Classics Primeblue SST Track Pants",
+      "category": "Originals"
+    },
+    {
+      "id": 5,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/FY7756_01_standard.jpg",
+      "price": "₹8 999.00",
+      "title": "Forum Low Shoes",
+      "category": "Originals"
+    },
+    {
+      "id": 6,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/9e4850c6019841138e38a7fa00de8937_9366/280647_01_standard.jpg",
+      "price": "₹3 999.00",
+      "title": "Adilette Slides",
+      "category": "Originals"
+    },
+    {
+      "id": 7,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/68ae7ea7849b43eca70aac1e00f5146d_9366/FX5502_01_standard.jpg",
+      "price": "₹7 999.00",
+      "title": "Stan Smith Shoes",
+      "category": "Originals"
+    },
+    {
+      "id": 8,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/62d96641e799450fbbdfad0800cb06ed_9366/GZ9256_01_standard.jpg",
+      "price": "₹13 999.00",
+      "title": "NMD_R1 Primeblue Shoes",
+      "category": "Originals"
+    },
+    {
+      "id": 9,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/3482c42d804346ed88e7ade5010805c5_9366/HD2350_21_model.jpg",
+      "price": "₹2 099.00",
+      "title": "Adicolor Classics 3-Stripes Tights",
+      "category": "Originals"
+    },
+    {
+      "id": 10,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/8db86f7c0519410a9fbaad22011527fd_9366/H09115_21_model.jpg",
+      "price": "4 999.00",
+      "title": "Adicolor Classics Beckenbauer Primeblue Track Pants",
+      "category": "Originals"
+    },
+    {
+      "id": 11,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/55c7f63868f847f194c7ad9e01461a08_9366/HF1993_21_model.jpg",
+      "price": "₹5 599.00",
+      "title": "Primeblue SST Track Pants",
+      "category": "Originals"
+    },
+    {
+      "id": 12,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/GZ0127_01_standard.jpg",
+      "price": "₹17 999.00",
+      "title": "Ultraboost 22 Shoes",
+      "category": "Performance"
+    },
+    {
+      "id": 13,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/35d9418ae1414117be14ac46010c5827_9366/GN3495_21_model.jpg",
+      "price": "2 299.00",
+      "title": "Adicolor Classics 3-Stripes Tee",
+      "category": "Originals"
+    },
+    {
+      "id": 14,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/72d4e486200a4417adc1ae7b0110495b_9366/GY8569_01_standard.jpg",
+      "price": "₹5 999.00",
+      "title": "adidas x Disney Fortarun Shoes",
+      "category": "Sportswear"
+    },
+    {
+      "id": 15,
+      "image": "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/c96b58cc5241482eb5cbac83004603c5_9366/GL4029_21_model.jpg",
+      "price": "₹1 619.50",
+      "title": "FeelBrilliant Designed to Move Tights",
+      "category": "Performance"
+    }
+  ],
+  "whatshot": [
+    {
+      "id": 1,
+      "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/Real_Madrid_Jersey_TC_030522_tcm209-883697.jpg",
+      "title": "WIN REAL MADRID JERSEY",
+      "summary": "Members stand a chance to win a squad signed 21/22 Home Jersey.",
+      "tag": "ENTER RAFFLE"
+    },
+    {
+      "id": 2,
+      "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/adi_energy-ss22-mwn-launch_tcm209-885299.jpg",
+      "title": "ULTRABOOST MADE WITH NATURE",
+      "summary": "Designed in balance with the planet.",
+      "tag": "SHOP NOW"
+    },
+    {
+      "id": 3,
+      "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/SS22_adidas_by_Blondey_Teaser_Card_Option1_tcm209-872446.jpg",
+      "title": "ADIDAS BY BLONDEY",
+      "summary": "Introducing the adidas by Blondey Capsule Collection designed by Blondey McCoy.",
+      "tag": "SHOP NOW"
+    },
+    {
+      "id": 4,
+      "image": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/football-ss22-mufc-ps-launch-hp-tc-d_tcm209-861437.jpg",
+      "title": "Pulsebeat of Manchester",
+      "summary": "A celebration of Manchester's music and culture: Manchester United x Peter Saville is available now.",
+      "tag": "SHOP NOW"
+    },
+    {
+      "id": 5,
+      "image": "https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/sustainability-ss22-rfto-tease-HP-GLP-PH-tcc-Karlie-d_tcm209-865905.jpg",
+      "title": "TOGETHER, IMPOSSIBLE IS NOTHING",
+      "summary": "Find out how you can help end plastic waste, starting May 9.",
+      "tag": "LEARN MORE"
+    },
+    {
+      "id": 6,
+      "image": "https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/running-ss22-bostonmarathon-reactive-v2-teasercarousel_tcm209-874330.jpg",
+      "title": "MARATHON WINNER",
+      "summary": "Experience the Adizero Adios Pro 2.0 like Peres Jepchirchir and Evans Chebet, winner of the Boston Marathon®.",
+      "tag": "SHOP NOW"
+    }
+  ]
+}

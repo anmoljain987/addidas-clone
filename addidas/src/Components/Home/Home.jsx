@@ -5,6 +5,9 @@ import { CgArrowLongRight } from "react-icons/cg";
 import Popular from "./Popular";
 import CardShop from "./CardShop";
 import "./Home.css";
+import Slider from "./Sliders/Slider";
+import Whatshot from "./Sliders/Whatshot";
+
 function Home() {
   return (
     <Fragment>
@@ -45,6 +48,8 @@ function Home() {
       {/* <Alkira /> */}
       <Popular />
       <CardShop />
+      <Slider />
+      <Whatshot />
     </Fragment>
   );
 }
