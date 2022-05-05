@@ -10,17 +10,19 @@ import Home from "./Components/Home/Home";
 
 import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
+import Purchase from "./Components/Purchase/Purchase";
 function App() {
   return (
     <Fragment>
-      <FinalNav />
+      {/* <FinalNav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="men" element={<Men />} />
         <Route path="kids" element={<Kids />} />
         <Route path="*" element={<Home />} />
       </Routes>
-      <FinalFoot />
+      <FinalFoot /> */}
+      <Purchase />
     </Fragment>
   );
 }
