@@ -6,7 +6,7 @@
   font-family: "adineue PRO Cyr Bold";
 }
 .input_name {
-  padding: 0.8rem 0;
+  padding: 0.8rem 10px;
   width: 325px;
 }
 .form {
@@ -22,14 +22,6 @@
   color: black;
 }
 
-#old:active {
-  background-color: black;
-  color: white;
-  accent-color: black;
-}
-.button {
-  /* position: absolute; */
-}
 .input {
   left: -5px;
   top: -5px;
@@ -39,10 +31,13 @@
   color: white;
   font-size: xx-large;
   font-family: "adineue PRO Cyr Bold";
-  padding: 0px 10px;
+  padding: 0px 60px;
 }
 .button_container {
   border: 2px black solid;
   height: 49px;
-  width: 122px;
+  width: 223px;
+}
+.extra {
+  font-size: x-small;
 }

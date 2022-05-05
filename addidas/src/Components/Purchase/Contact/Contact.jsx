@@ -26,7 +26,7 @@ function Contact() {
               name="number"
               placeholder="Mobile Number *"
             />{" "}
-            <div htmlFor="number">
+            <div className={styles.extra} htmlFor="number">
               We will only call you if there are questions regarding your order.
             </div>
           </div>
