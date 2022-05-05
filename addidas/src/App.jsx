@@ -10,7 +10,7 @@ import Home from "./Components/Home/Home";
 
 import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
-import Shipping from "./Components/Purchase/NewAddress/ShippingForm";
+import Purchase from "./Components/Purchase/Purchase";
 function App() {
   return (
     <Fragment>
@@ -22,7 +22,7 @@ function App() {
         <Route path="*" element={<Home />} />
       </Routes>
       <FinalFoot /> */}
-      <Shipping />
+      <Purchase />
     </Fragment>
   );
 }

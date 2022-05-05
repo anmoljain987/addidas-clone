@@ -1,10 +1,16 @@
-import React from 'react'
-
+import React from "react";
+import Shipping from "./NewAddress/ShippingForm";
+import NavPur from "./NavPur/NavPur";
+import FootPur from "./FootPur/FootPur";
+import Contact from "./Contact/Contact";
 function Purchase() {
   return (
-    <div>Purchase</div>
-  )
+    <>
+      <NavPur />
+      <Shipping />
+      <Contact /> <FootPur />
+    </>
+  );
 }
 
-export default Purchase
-
+export default Purchase;

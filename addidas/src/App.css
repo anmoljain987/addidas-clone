@@ -1,5 +1,13 @@
-body {
+@font-face {
+  font-family: "adineue PRO Cyr Bold";
+  src: url("adineuePROCyr-BoldWeb.eot");
+  src: url("adineuePROCyr-BoldWeb.eot?#iefix") format("embedded-opentype"),
+    url("adineuePROCyr-BoldWeb.woff") format("woff"),
+    url("adineuePROCyr-BoldWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }

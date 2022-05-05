@@ -36,6 +36,7 @@ function ShippingForm() {
   } = shipping;
   return (
     <Fragment>
+      <h2 className={styles.heading}>SHIPPING ADDRESS</h2>
       <form className={styles.form_flex} onSubmit={submitHandler}>
         <div className={styles.left_right}>
           <input
@@ -106,7 +107,7 @@ function ShippingForm() {
           <select
             name="state"
             id="state-shipping"
-            className={styles.input_name}
+            className={`${styles.input_name} ${styles.input_select}`}
             value={state}
             onChange={changeHandler}
             required
@@ -167,6 +168,8 @@ function ShippingForm() {
         </div>
         <input type="submit" value={"Button"} className={styles.button} />
       </form>
+      <span>Country:</span>
+      <span>India</span>
     </Fragment>
   );
 }
