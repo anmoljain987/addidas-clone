@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.border__bottom_nav {
+  outline: 1px lightgray solid;
+}
 
 .hidden {
   display: none;

@@ -25,7 +25,7 @@ function FinalNav() {
   });
 
   return (
-    <div>
+    <div className="border__bottom_nav">
       <Top />
       {width > 960 ? <NavbarCont /> : <NewNav />}
     </div>

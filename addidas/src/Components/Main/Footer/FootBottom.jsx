@@ -8,7 +8,11 @@ function FootBottom() {
     <Container className="foot-bottom" fluid>
       <Row>
         <Col className="pointer left" md={8} xs={8}>
-          <img src={<In />} alt="in" />
+          <img
+            className="img__india"
+            src="https://adl-foundation.adidas.com/flags/1-0-0/in.svg"
+            alt="in"
+          />
           India
         </Col>
         <Col className="pointer" sm={6} md={4}>

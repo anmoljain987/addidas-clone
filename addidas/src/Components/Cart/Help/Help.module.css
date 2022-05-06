@@ -1,0 +1,20 @@
+.help {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.help_heading {
+  font-family: "adineue PRO Cyr Bold";
+}
+.links {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+  padding:0;
+}
+
+.links:hover {
+  color: white;
+  background-color: black;
+  text-decoration-color: white;
+}
