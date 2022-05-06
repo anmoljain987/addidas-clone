@@ -8,7 +8,7 @@ const Whatshot = () => {
 
   const getData = () => {
     axios
-      .get("http://localhost:3004/whatshot", {})
+      .get("http://fake-server-nitin.herokuapp.com/whatshot", {})
       .then((res) => setWhatshot(res.data))
       .catch((e) => {
         console.log(e);

@@ -9,7 +9,7 @@ const Slider = () => {
 
   const getData = () => {
     axios
-      .get("http://localhost:3004/newarrivals", {})
+      .get("http://fake-server-nitin.herokuapp.com/newarrivals", {})
       .then((res) => setSlider(res.data))
       .catch((e) => {
         console.log(e);
