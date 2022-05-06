@@ -9,6 +9,7 @@ function FootBottom() {
       <Row>
         <Col className="pointer left" md={8} xs={8}>
           <img
+            className="img__india"
             src="https://adl-foundation.adidas.com/flags/1-0-0/in.svg"
             alt="in"
           />

@@ -39,10 +39,15 @@
 .text-wrapper-home {
   /* top: 195px;
   left: 200px; */
+  line-height: 1.3;
+  font-size: 50px;
+
+  font-family: "adineue PRO Cyr Bold";
   z-index: 9869;
   color: black !important;
   text-transform: uppercase;
   font-weight: 500;
+  margin-bottom: 50px;
 }
 .text-wrapper-home div {
   padding: 0;

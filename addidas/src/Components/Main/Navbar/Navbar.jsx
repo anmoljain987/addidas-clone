@@ -36,7 +36,7 @@ function NavbarCont() {
               <a href="#">order tracker</a>
             </li>
             <li className="links-nav-upper">
-              <a href="#">sign up</a>
+              <Link to="/login">sign up</Link>
             </li>{" "}
           </ul>
           <div className="links-nav-bottom-wrapper">
@@ -112,9 +112,9 @@ function NavbarCont() {
                 />
               </li>
               <li className="icon-link">
-                <a href="#">
+                <Link to="/login">
                   <AiOutlineUser />
-                </a>
+                </Link>
               </li>
               <li className="icon-link">
                 <a href="#">

@@ -42,13 +42,8 @@ function Home() {
         <div className="absolute-home-wrapper">
           <div className="text-wrapper-home">
             <div>
-              <span>WEEKEND</span>
-            </div>
-            <div>
-              <span>EXCLUSIVE</span>
-            </div>
-            <div>
-              <span>40-60% OFF</span>
+              WEEKEND <br /> EXCLUSIVE <br />
+              40-60% OFF
             </div>
           </div>
           <div className="div-brutal-wrapper-vid">
