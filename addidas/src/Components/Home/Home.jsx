@@ -19,9 +19,10 @@ function Home() {
             muted={true}
             width="100%"
             height="100%"
-            url="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/global%20brand%20publishing/Membership/Members%20Week/Launch%20Phase/brand-ss22-membersweek-launch-glp-m-mh-hero-d.mp4"
+            url="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/yoga-ss22-make_space-launch-hp-mh-d_gm0btj.mp4"
           />
           {/* <picture width="100%">
+          https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/yoga-ss22-make_space-launch-hp-mh-d_gm0btj.mp4
             <source
               media="(min-width: 960px)"
               srcset="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/ss22-collabs-archive-mh-d_tcm209-875559.jpg"
@@ -41,9 +42,10 @@ function Home() {
         </div>
         <div className="absolute-home-wrapper">
           <div className="text-wrapper-home">
-            <div>
-              WEEKEND <br /> EXCLUSIVE <br />
-              40-60% OFF
+            <div>Make Space</div>
+            <div className="text-wrapper-home-small">
+              A high performance yoga collection inspired by the elements and
+              made in part with Parley Ocean Plastic.
             </div>
           </div>
           <div className="div-brutal-wrapper-vid">

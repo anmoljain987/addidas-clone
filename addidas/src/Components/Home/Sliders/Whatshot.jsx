@@ -105,6 +105,7 @@ const Whatshot = () => {
                                       <img
                                         className={`${styles.high_res_picture_2gAGk} ${styles.loaded_3plIB} ${styles.img_K_DBh}`}
                                         src={item.image}
+                                        alt="image_high"
                                       />
                                     </div>
                                   </div>
