@@ -7,6 +7,7 @@ import CardShop from "./CardShop";
 import "./Home.css";
 import Slider from "./Sliders/Slider";
 import Whatshot from "./Sliders/Whatshot";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -51,9 +52,9 @@ function Home() {
           <div className="div-brutal-wrapper-vid">
             <div className="div-brutal-vid">
               <button className="button-brutal-vid">
-                <a href="#">
+                <Link to="/login">
                   SHOP NOW <CgArrowLongRight style={{ fontSize: "25px" }} />
-                </a>
+                </Link>
               </button>
             </div>
           </div>

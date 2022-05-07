@@ -1,7 +1,22 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Login.module.css";
 import Reward from "./Rewards/Reward";
+import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { authActions } from "../../Store/index";
 function Login() {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  // useEffect(()=>{
+
+  //   if(JSON.parse(localStorage.getItem("email"))){
+
+  //   }
+  // })
+  const data = [
+    { name: "Nitin", email: "nitin@gmail.com", password: "12345678" },
+    { name: "Anmol", email: "anmol@gmail.com", password: "12345678" },
+  ];
   const intialState = {
     email: "",
     password: "",
@@ -19,13 +34,28 @@ function Login() {
   const { email, password, loggedIn } = user;
   function login(e) {
     e.preventDefault();
-    if (loggedIn) {
-      localStorage.setItem("token", email);
-    } else {
-      localStorage.removeItem("token");
+
+    const user_email = data.find((el, i) => el.email === email);
+    console.log(user_email);
+    if (!user_email) {
+      alert("User not found");
+      setUser(intialState);
+      return;
     }
-    console.log(user);
+    if (user_email.password !== password) {
+      alert("Wrong password");
+      setUser({ ...user, password: "" });
+      return;
+    }
+    // if (loggedIn) {
+    //   localStorage.setItem("email", user_email);
+    // }
+    // const user_detail = data.filter((el)=>el)
+
+    dispatch(authActions.login(user_email.name));
+
     setUser(intialState);
+    navigate("/");
   }
 
   return (

@@ -9,7 +9,7 @@
 }
 .div-brutal-vid {
   position: relative;
-  border: 1px solid black;
+  border: 2px solid rgb(255, 255, 255);
   display: block;
   width: 154px;
   height: 49px;
@@ -19,15 +19,15 @@
   position: absolute;
   padding: 10px 18px;
   border: none;
-  background: black;
+  background: rgb(255, 255, 255);
 
-  top: -3px;
-  left: -3px;
+  top: -4px;
+  left: -4px;
 }
 
 .button-brutal-vid a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: 500;
   transition: ease-in-out 0.8s;
 }

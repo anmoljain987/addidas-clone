@@ -6,11 +6,18 @@ import {
 } from "react-icons/ai";
 import { FiHeart } from "react-icons/fi";
 import "./Navbar.css";
-
+import { useSelector, useDispatch } from "react-redux";
+import { authActions } from "../../../Store/index";
 import HiddenMen from "./HiddenMen";
 import HiddenWomen from "./HiddenWomen";
 import { Link } from "react-router-dom";
 function NavbarCont() {
+  const auth = useSelector((state) => state.isAuth);
+  const user = useSelector((state) => state.user);
+  const dispatch = useDispatch();
+  const signout = () => {
+    dispatch(authActions.logout());
+  };
   return (
     <Fragment>
       <nav className="navigation-bar-bottom">
@@ -36,7 +43,13 @@ function NavbarCont() {
               <a href="#">order tracker</a>
             </li>
             <li className="links-nav-upper">
-              <Link to="/login">sign up</Link>
+              {!auth ? (
+                <Link to="/login">sign up</Link>
+              ) : (
+                <button className="button_signout" onClick={signout}>
+                  sign out
+                </button>
+              )}
             </li>{" "}
           </ul>
           <div className="links-nav-bottom-wrapper">
@@ -112,7 +125,10 @@ function NavbarCont() {
                 />
               </li>
               <li className="icon-link">
-                <Link to="/login">
+                <Link
+                  title={!auth ? "sign in" : user}
+                  to={!auth ? "/login" : "/"}
+                >
                   <AiOutlineUser />
                 </Link>
               </li>

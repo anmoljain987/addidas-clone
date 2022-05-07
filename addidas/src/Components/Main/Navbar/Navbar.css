@@ -100,7 +100,10 @@
 .icon-link a:hover {
   color: black;
 }
-
+.button_signout {
+  background-color: transparent;
+  border: 0;
+}
 .links-nav-bottom-wrapper {
   display: flex;
   gap: 30px;
