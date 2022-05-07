@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "./Slider.module.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
   const [slider, setSlider] = useState([]);
@@ -133,81 +134,83 @@ const Slider = () => {
                                   <section>
                                     <div>
                                       <div>
-                                        <div
-                                          className={
-                                            styles.glass_product_card_container
-                                          }
-                                        >
+                                        <Link to={"/product"}>
                                           <div
-                                            className={`${styles.glass_product_card} ${styles.is_shoes_3LfBc} ${styles.plp_product_card_1sck4} ${styles.is_mobile_details_bottom_2pDnN} ${styles.product_card_content_2O10f}`}
+                                            className={
+                                              styles.glass_product_card_container
+                                            }
                                           >
                                             <div
-                                              className={
-                                                styles.glass_product_card_assets
-                                              }
+                                              className={`${styles.glass_product_card} ${styles.is_shoes_3LfBc} ${styles.plp_product_card_1sck4} ${styles.is_mobile_details_bottom_2pDnN} ${styles.product_card_content_2O10f}`}
                                             >
-                                              <a
-                                                href="/forum-low-shoes/GY5833.html?cm_sp=SLOT-6.1-_-?_?_?_?_?-_-PRODUCTSELECTIONCAROUSEL-PRODUCT-CARD-_-788793"
+                                              <div
                                                 className={
-                                                  styles.glass_product_card_assets_link
+                                                  styles.glass_product_card_assets
                                                 }
                                               >
-                                                <img
-                                                  data-auto-id="image"
-                                                  src={item.image}
-                                                  alt="Forum Low Shoes"
-                                                  className={`${styles.img_with_fallback_1aENo} ${styles.glass_product_card_image}`}
-                                                />
-                                              </a>
-
-                                              <a
-                                                href="/forum-low-shoes/GY5833.html?cm_sp=SLOT-6.1-_-?_?_?_?_?-_-PRODUCTSELECTIONCAROUSEL-PRODUCT-CARD-_-788793"
-                                                className={
-                                                  styles.product_card_content_badges_wrapper_2brrU
-                                                }
-                                              >
-                                                <div
+                                                <a
+                                                  href="/forum-low-shoes/GY5833.html?cm_sp=SLOT-6.1-_-?_?_?_?_?-_-PRODUCTSELECTIONCAROUSEL-PRODUCT-CARD-_-788793"
                                                   className={
-                                                    styles.badge_container_DVUWN
+                                                    styles.glass_product_card_assets_link
+                                                  }
+                                                >
+                                                  <img
+                                                    data-auto-id="image"
+                                                    src={item.image}
+                                                    alt="Forum Low Shoes"
+                                                    className={`${styles.img_with_fallback_1aENo} ${styles.glass_product_card_image}`}
+                                                  />
+                                                </a>
+
+                                                <a
+                                                  href="/forum-low-shoes/GY5833.html?cm_sp=SLOT-6.1-_-?_?_?_?_?-_-PRODUCTSELECTIONCAROUSEL-PRODUCT-CARD-_-788793"
+                                                  className={
+                                                    styles.product_card_content_badges_wrapper_2brrU
                                                   }
                                                 >
                                                   <div
-                                                    className={`${styles.gl_price} ${styles.gl_price_horizontal} ${styles.notranslate} ${styles.gl_price_inline_2z9ZX}`}
+                                                    className={
+                                                      styles.badge_container_DVUWN
+                                                    }
                                                   >
                                                     <div
-                                                      className={`${styles.gl_price_item} ${styles.notranslate}`}
+                                                      className={`${styles.gl_price} ${styles.gl_price_horizontal} ${styles.notranslate} ${styles.gl_price_inline_2z9ZX}`}
                                                     >
-                                                      {item.price}
+                                                      <div
+                                                        className={`${styles.gl_price_item} ${styles.notranslate}`}
+                                                      >
+                                                        {item.price}
+                                                      </div>
                                                     </div>
                                                   </div>
+                                                </a>
+                                              </div>
+                                              <a href="/forum-low-shoes/GY5833.html?cm_sp=SLOT-6.1-_-?_?_?_?_?-_-PRODUCTSELECTIONCAROUSEL-PRODUCT-CARD-_-788793">
+                                                <div
+                                                  className={
+                                                    styles.glass_product_card_details
+                                                  }
+                                                >
+                                                  <p
+                                                    className={`${styles.gl_paragraph} ${styles.gl_paragraph_s} ${styles.glass_product_card_title}`}
+                                                  >
+                                                    {item.title}
+                                                  </p>
+                                                  <p
+                                                    className={`${styles.gl_paragraph} ${styles.gl_paragraph_s} ${styles.glass_product_card_category}`}
+                                                  >
+                                                    {item.category}
+                                                  </p>
+                                                  <p
+                                                    className={`${styles.gl_paragraph} ${styles.gl_paragraph_s} ${styles.glass_product_card_label}`}
+                                                  >
+                                                    <span>{item.label}</span>
+                                                  </p>
                                                 </div>
                                               </a>
                                             </div>
-                                            <a href="/forum-low-shoes/GY5833.html?cm_sp=SLOT-6.1-_-?_?_?_?_?-_-PRODUCTSELECTIONCAROUSEL-PRODUCT-CARD-_-788793">
-                                              <div
-                                                className={
-                                                  styles.glass_product_card_details
-                                                }
-                                              >
-                                                <p
-                                                  className={`${styles.gl_paragraph} ${styles.gl_paragraph_s} ${styles.glass_product_card_title}`}
-                                                >
-                                                  {item.title}
-                                                </p>
-                                                <p
-                                                  className={`${styles.gl_paragraph} ${styles.gl_paragraph_s} ${styles.glass_product_card_category}`}
-                                                >
-                                                  {item.category}
-                                                </p>
-                                                <p
-                                                  className={`${styles.gl_paragraph} ${styles.gl_paragraph_s} ${styles.glass_product_card_label}`}
-                                                >
-                                                  <span>{item.label}</span>
-                                                </p>
-                                              </div>
-                                            </a>
                                           </div>
-                                        </div>
+                                        </Link>
                                       </div>
                                     </div>
                                   </section>

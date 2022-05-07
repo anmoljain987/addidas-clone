@@ -12,6 +12,7 @@ import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 import Purchase from "./Components/Purchase/Purchase";
 import Login from "./Components/Login/Login";
+import Project from "./Components/Checkout/Component2/Project";
 function App() {
   return (
     <Fragment>
@@ -20,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="men" element={<Men />} />
         <Route path="kids" element={<Kids />} />
-
+        <Route path="/product" element={<Project />} />
         <Route path="login" element={<Login />} />
       </Routes>
 
