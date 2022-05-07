@@ -1,6 +1,6 @@
 import React from "react";
 // import React, { useRef, useState } from "react";
-
+import Slider from "../Home/Sliders/Slider";
 import "./Menstyles.css";
 import ReactPlayer from "react-player";
 // import Slider from "react-slick";
@@ -36,6 +36,7 @@ export default function Men() {
         <button className="button">Shop Now &#8594;</button>
       </div>
       {/* <Slider {...settings}>  */}
+      <Slider></Slider>
       <h1 className="text2">MEN ORIGINALS</h1>
       <div className="flex-outside">
         <div className="flex-inside">

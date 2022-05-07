@@ -17,12 +17,10 @@ const Slider = () => {
   };
 
   useEffect(() => {
-    // Update the document title using the browser API
     getData();
   }, []);
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
       slidesToSlide: 4,
