@@ -8,6 +8,7 @@ import "./Home.css";
 import Slider from "./Sliders/Slider";
 import Whatshot from "./Sliders/Whatshot";
 import { Link } from "react-router-dom";
+import Story from "./Story";
 
 function Home() {
   return (
@@ -65,6 +66,7 @@ function Home() {
       <CardShop />
       <Slider />
       <Whatshot />
+      <Story />
     </Fragment>
   );
 }
