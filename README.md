@@ -5,7 +5,7 @@
 <h4 >Contributors</h4>
 <ul>
 <li>Anmol Jain</li>
-<li>Venkatesh</li>
+
 </ul>
 <h2 align="center">Full Screen Home Page</h2>
 <img src="Adidas-1.png">
