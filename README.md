@@ -5,6 +5,9 @@
 <h4 >Contributors</h4>
 <ul>
 <li>Anmol Jain</li>
+  <li>Nitin Maharishi</li>
+  <li>Venkatesh Kp</li>
+  
 
 </ul>
 <h2 align="center">Full Screen Home Page</h2>
